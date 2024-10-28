@@ -1,0 +1,55 @@
+.heroImage{
+    -webkit-filter: brightness(46%);
+    filter:brightness(46%);
+}
+.ImageWrap{
+    position: relative; 
+    text-align: center;
+}
+.heroText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heroTitle {
+	font-size: 100px;
+	font-weight: 700;
+	color: #fff;
+	font-family: 'Asap Condensed', sans-serif;
+}
+
+.heroSecondTitle {
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 50px;
+	color: #fff;
+	position: relative;
+	font-weight: 600;
+}
+.secondTitleWrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	margin-top: -120px;
+}
+.custom-button {
+	background-color: #FF8C22;
+	border: none;
+	color: white;
+	padding: 15px 67px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 15px;
+	cursor: pointer;
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 31px;
+	font-weight: 400;
+	margin-top: -27px;
+}
+
+  .custom-button:hover {
+    background-color: #FFA74F; /* Adjust hover color */
+  }

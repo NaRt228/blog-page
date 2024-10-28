@@ -1,0 +1,36 @@
+.sectionTitleWrap {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	justify-content: center;
+}
+.sectionIcon{
+    font-size: 40px;
+}
+.sectionTitle{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Asap Condensed', sans-serif;
+    color: #3C3B3B;
+}
+.moreBlogs{
+    margin-top: 50px;
+}
+
+
+
+    .blog_button {
+      a {
+        text-decoration: inherit;
+        display: block;
+        width: 200px;
+        margin: 0px auto 24px;
+        letter-spacing: 1px;
+        padding: 15px 26px;
+        background: #FF8C22;
+        color: white;
+        outline-offset: -2px;
+        transition: all .3s ease;
+      }
+    }
+  

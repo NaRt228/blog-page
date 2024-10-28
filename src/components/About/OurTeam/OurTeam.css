@@ -1,0 +1,80 @@
+.ourTeamTitle{
+    font-size: 70px;
+    font-weight: 600;
+    color: #3C3B3B;
+    font-family: 'Asap Condensed', sans-serif;
+}
+.ourTeamIcon{
+    font-size: 60px;
+    color: #3C3B3B;
+}
+.ourTeamTitleWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.ourTeamPerson {
+	background-color: white;
+	width: 300px;
+	height: 530px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ourTeamPeople{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    margin-bottom: 90px;
+}
+.circleImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    border: 3px solid #F57804;
+}
+.personAvatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.personName{
+    font-size: 25px;
+    font-weight: 600;
+    color: #3C3B3B;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 250px;
+}
+.personDescription{
+    font-size: 13px;
+    font-weight: 400;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: -15px;
+    width: 200px;
+    font-style: italic;
+}
+.positioning{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+.socialIcon{
+    font-size: 40px;
+    
+}
+.socialLinks{
+    display: flex;
+    gap: 27px;
+}

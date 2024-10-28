@@ -1,0 +1,26 @@
+.adminButtons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 39px;
+	margin-bottom: 68px;
+}
+.adminButton {
+	padding: 16px 42px;
+	line-height: 1.25;
+	background: #08A2FF;
+	text-decoration: none;
+	color: white;
+	font-size: 26px;
+	text-transform: uppercase;
+	position: relative;
+	overflow: hidden;
+	border: 0px;
+	cursor: pointer;
+	transition: all 0.3s;
+	border-radius: 10px;
+	font-weight: 600;
+}
+
+.adminButton:hover {
+    scale: 1.1;
+}

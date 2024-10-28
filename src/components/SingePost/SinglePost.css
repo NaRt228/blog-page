@@ -1,0 +1,33 @@
+.blogWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.imageBlogPost {
+	width: 800px;
+	height: 534px;
+	border-radius: 16px;
+}
+.singleTitlePost{
+    font-size: 40px;
+    color: #585454;
+}
+.singleDescrPost {
+	font-size: 17px;
+	color: #999;
+	margin-top: -23px;
+	width: 695px;
+}
+.undoIcons {
+
+	font-size: 38px;
+}
+.backLink{
+    color: black;
+}
+.singlePostWrap{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}

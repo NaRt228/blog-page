@@ -1,0 +1,52 @@
+.admin-blog-table {
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .table-data {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  .table-data p{
+    color: gray;
+  }
+  
+  .buttonEdit {
+    padding: 6px 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  .buttonRemove{
+    padding: 6px 10px;
+    border: none;
+    background-color: #e73b3b;
+    color: white;
+    cursor: pointer;
+  }
+  .buttonRemove:hover{
+    background-color: #ef7575;
+  }
+  .buttonEdit:hover {
+    background-color: #78b47b;
+  }
+  .thumbnail-image {
+	width: 114px;
+	height: 74px;
+}
